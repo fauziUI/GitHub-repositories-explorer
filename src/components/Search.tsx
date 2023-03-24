@@ -15,7 +15,7 @@ export default function Search({
   return (
     <form
       onSubmit={handleSearch}
-      className="border-b py-20 w-full max-w-5xl m-auto px-4 md:px-12"
+      className="border-b pb-16 pt-28 w-full max-w-5xl m-auto px-4 md:px-12"
     >
       <div className="text-2xl">
         Search more than <span className="font-semibold">111M</span> users
