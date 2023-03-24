@@ -9,7 +9,7 @@ export default function Navbar() {
   const [burgerMenu, setBurgerMenu] = useState(false);
 
   return (
-    <nav className="bg-[#24292f] text-white py-5 ">
+    <nav className="bg-[#24292f] text-white py-5 fixed w-full">
       <div className="flex md:flex-row-reverse justify-between max-w-5xl m-auto items-center">
         <div className="flex items-center">
           <div className="mx-2 cursor-pointer hidden md:flex hover:text-gray-300">
@@ -54,7 +54,7 @@ export default function Navbar() {
 
         {/* menu handphone */}
         <div
-          className={`absolute top-20 right-0 bg-gray-300 h-screen w-full text-black md:hidden ${
+          className={`absolute top-16 right-0 bg-gray-300 h-screen w-full text-black md:hidden ${
             !burgerMenu && "hidden"
           }`}
         >
