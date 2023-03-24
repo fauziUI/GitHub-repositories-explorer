@@ -42,8 +42,8 @@ export default function ListUser({ listUser }: { listUser: { login: string }[] }
               ) : listRepo.length > 0 ? (
                 listRepo.map((x: { name: string; language: string }, y) => {
                   return (
-                    <div key={y} className="py-4 px-8 flex justify-between">
-                      <div>{`${y + 1}. ${x.name}`}</div>
+                    <div key={y} className="py-4 px-8 grid grid-cols-4 gap-2">
+                      <div className="col-span-3">{`${y + 1}. ${x.name}`}</div>
                       {x.language ? <div>{x.language}</div> : <div>-</div>}
                     </div>
                   );
