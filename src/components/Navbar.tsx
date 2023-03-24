@@ -74,7 +74,7 @@ export default function Navbar() {
               Pricing
               <IconArrowRight />
             </li>
-            <div className="flex justify-center px-8 absolute inset-x-0 bottom-28">
+            <div className="flex justify-center px-8 absolute inset-x-0 bottom-40">
               <button className="my-4 text-2xl cursor-pointer hover:text-gray-300 bg-[#24292f] text-white w-full rounded-xl py-2">
                 Sign In
               </button>
